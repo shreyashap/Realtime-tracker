@@ -2,7 +2,7 @@ import io, { Socket } from "socket.io-client";
 import Map from "./components/Map";
 import { useState, useEffect } from "react";
 
-const socket = io("http://localhost:3000");
+const socket = io("hhttps://realtime-tracker-nd8e.onrender.com");
 
 function App() {
   const [latitude, setLatitude] = useState(null);
